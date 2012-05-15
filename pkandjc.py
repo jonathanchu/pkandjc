@@ -11,7 +11,14 @@ import sys
 import os
 
 from flask import Flask, jsonify, render_template, request
+from flaskext.lesscss import lesscss
+
 app = Flask(__name__)
+app.debug = True
+join_path = lambda p1,p2: os.path.abspath(os.path.join(p1,p2))
+PROJECT = os.path.abspath(os.path.dirname(__file__))
+app.static_path = join_path(PROJECT, 'static/less/lib/')
+lesscss(app)
 
 @app.route('/')
 def index():
