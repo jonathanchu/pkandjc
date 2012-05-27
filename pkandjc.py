@@ -11,7 +11,11 @@ import sys
 import os
 
 from flask import Flask, jsonify, render_template, request
+from flask.ext.assets import Environment
+
 app = Flask(__name__)
+assets = Environment(app)
+app.debug = True
 
 @app.route('/')
 def index():
