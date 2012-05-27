@@ -28,9 +28,15 @@ var App = {
             event.preventDefault();
         });
 
-        $('.carousel').carousel({
+        $('#mainCarousel').carousel({
             interval: false
         });
+
+        $('#photosCarousel').carousel({
+            interval: false
+        });
+
+
     },
 }
 
