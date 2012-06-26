@@ -36,6 +36,13 @@ var App = {
             interval: false
         });
 
+        $('#bridesmaidsCarousel').carousel({
+            interval: false
+        });
+
+        $('#groomsmenCarousel').carousel({
+            interval: false
+        });
 
     },
 }
