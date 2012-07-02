@@ -110,7 +110,7 @@ section {
 .navbar-inner-cont {
   position: relative;
   min-height: 82px;
-  width: 850px;
+  width: 860px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -119,7 +119,6 @@ section {
   position: relative;
   float: left;
   width: 124px;
-  /* min-height: 82px; */
   min-height: 57px;
   margin-top: 15px;
 }
