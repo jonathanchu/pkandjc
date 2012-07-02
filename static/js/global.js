@@ -28,6 +28,15 @@ var App = {
             event.preventDefault();
         });
 
+        // bow
+        $('.navbar-bow a').bind('click',function(event){
+            var $anchor = $(this);
+
+            $('html, body').animate({scrollTop:0}, 'slow');
+            return false;
+        });
+
+        // slideshows
         $('#mainCarousel').carousel({
             interval: false
         });
