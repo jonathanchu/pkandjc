@@ -194,3 +194,11 @@ footer {
     width: 300px;
   }
 }
+
+#mainCarousel {
+  margin: 10px 0 20px 9px;
+}
+
+#mainCarousel .item {
+  border: 1px solid #d29c7c;
+}
