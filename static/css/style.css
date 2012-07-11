@@ -44,6 +44,14 @@ h1 small {
   font-size: 13px;
 }
 
+h2 {
+  font-family: "GothamHTFMedium";
+  text-transform: uppercase;
+  font-size: 26px;
+  color: #c76d36;
+  text-align: center;
+}
+
 html,
 body {
   background: url("/static/img/bg.png");
@@ -62,6 +70,7 @@ section {
 section p {
   line-height: 24px;
   font-size: 14px;
+  color: #666;
 }
 
 .container > footer p {
