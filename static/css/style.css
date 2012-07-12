@@ -52,6 +52,29 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-family: "GothamHTFMedium";
+  text-transform: uppercase;
+  font-size: 23px;
+  color: #c76d36;
+}
+
+h4 {
+  margin: 20px 0 20px 0;
+  font-family: 'GothamHTFBookCondensedRegular';
+  text-transform: uppercase;
+  font-size: 21px;
+  color: #fdbe14;
+}
+
+h5 {
+  font-family: 'GothamHTFBookCondensedRegular';
+  text-transform: uppercase;
+  font-size: 21px;
+  color: #fdbe14;
+}
+
+
 html,
 body {
   background: url("/static/img/bg.png");
@@ -153,7 +176,6 @@ section p {
   float: none;
   padding: 20px 15px 11px;
   line-height: 36px;
-  /* color: #fcbd63; */
   color: #fdbe14;
   text-decoration: none;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0);
@@ -265,4 +287,29 @@ footer {
   text-decoration: none;
   /* shadow */
   text-shadow: 0 0 0.5em #444;
+}
+
+.where-left,
+.where-right {
+  float: left;
+  width: 350px;
+  height: 450px;
+}
+
+.flt-cnt {
+  clear: both;
+  position: relative;
+}
+
+a {
+  color: #c76d36;
+}
+
+a:hover {
+  color: #fdbe14;
+  text-decoration: none;
+}
+
+#about p {
+  font-size: 16px;
 }
