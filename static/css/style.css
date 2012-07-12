@@ -292,8 +292,12 @@ footer {
 .where-left,
 .where-right {
   float: left;
-  width: 350px;
+  width: 375px;
   height: 450px;
+}
+
+.where-left {
+  margin-right: 70px;
 }
 
 .flt-cnt {
